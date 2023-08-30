@@ -1,10 +1,10 @@
 import { Component } from "react";
-import { GlobalStyle } from "./GlobalStyle";
 
 import { FeedbackOptions } from "./FeedbackOptions/FeedbackOptions";
 import { Statisctics } from "./Statisctics/Statistics";
 import { Section } from "./Section/Section";
 import { Notification } from "./Notification/Notification";
+import { GlobalStyle } from "./GlobalStyle";
 
 export class App extends Component {
    state = {
