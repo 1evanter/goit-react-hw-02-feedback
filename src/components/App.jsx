@@ -33,7 +33,10 @@ export class App extends Component {
     render() {
 
         return (
-            <div>
+            <div  style={{
+                width: "250px",
+                margin: "0 auto",
+      }}>
                 <Section title="Please leave feedback">
 
                     <FeedbackOptions options={Object.keys(this.state)} onLeaveFeedback={this.handleClick} />
