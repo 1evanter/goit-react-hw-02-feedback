@@ -9,7 +9,7 @@ export const Statisctics = ( {currentState, options, totalFeedback, positivePerc
             <p> Total feedback: {totalFeedback}</p> 
             </li>
             <li>
-<p>Positive percentage: { positivePercentage > 0 ? (<span>{positivePercentage}%</span>) : ("Sorry, there's no positive feedback") } </p> 
+             <p>Positive feedback: { positivePercentage > 0 ? (<span>{positivePercentage}%</span>) : ("there's no positive feedback") } </p> 
             </li>
         </ul>
     )
