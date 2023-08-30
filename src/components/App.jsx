@@ -34,7 +34,7 @@ export class App extends Component {
 
         return (
             <div  style={{
-                width: "250px",
+                maxWidth: "250px",
                 margin: "0 auto",
       }}>
                 <Section title="Please leave feedback">

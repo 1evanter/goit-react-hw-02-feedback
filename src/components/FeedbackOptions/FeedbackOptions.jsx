@@ -6,10 +6,8 @@ export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
             {options.map(option => {
                 return (<li key={option}>
                 <Button type="button" onClick={() => onLeaveFeedback({option})}>{option}</Button>
-            </li>)
-            
+            </li>)        
         })}
         </List>
-       
     )
 }

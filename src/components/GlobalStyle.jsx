@@ -36,4 +36,13 @@ img {
 button {
   cursor: pointer;
 }
+
+ul {
+  display:flex;
+justify-content: center;
+max-width: 250px;
+border: 3px dashed #526D82;
+padding: 10px;
+margin: 15px;
+}
 `

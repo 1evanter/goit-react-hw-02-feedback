@@ -1,5 +1,8 @@
 export const Notification = ({ message }) => {
     return (
-        <p>{message}</p>
+        <p style={{
+            color: "red",
+            marginTop: "15px"
+      }}>{message}</p>
     )
 }
